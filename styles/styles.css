@@ -19,11 +19,17 @@ body {
     border-radius: 4px;
 }
 
-/* index */
-.index_logo_container {
+.logo_container {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* index */
+.index_agenda {
+    margin-top: 20px;
 }
 
 .index_buttons_container {
