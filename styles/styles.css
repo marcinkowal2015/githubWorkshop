@@ -1,9 +1,14 @@
 /* shared */
-body {
+.main-body {
     margin: 20px 20% 0 20%;
     background: #e6c6c6;
     display: flex;
     flex-direction: column;
+}
+
+iframe {
+    height: 320px;
+    border: 0;
 }
 
 .page_button {
@@ -19,13 +24,19 @@ body {
     border-radius: 4px;
 }
 
-.logo_container {
+/*header template */
+.header_logo_container {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
     flex-direction: column;
     align-items: center;
 }
+
+.header_image {
+    width: 100%;
+}
+
 
 /* index */
 .index_agenda {
