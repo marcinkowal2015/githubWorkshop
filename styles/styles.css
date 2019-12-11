@@ -100,3 +100,10 @@ iframe {
     height: 60px;
     width: 540px;
 }
+
+/* success */
+.success_button-container {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
